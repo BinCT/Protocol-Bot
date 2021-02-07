@@ -4,7 +4,7 @@ const bot = new Discord.Client();
 const moment = require("moment");
 
 // A raid bot made by Bin
-// Discord: ϾᚱÆϏ#8057
+// Discord: Craek#4361
 
 bot.on("ready", async () => {
 	console.log(`Simple Raid bot by Bin.`); // Console log telling the bot has started
